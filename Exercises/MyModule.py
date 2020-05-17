@@ -7,8 +7,8 @@ class ListKeeper:
   
     def show(self):
         return self.dictionary.keys()
-	    
-	def values(self):
+    	    
+    def values(self):
         return self.dictionary.values()
     
     def add(self, key, list):

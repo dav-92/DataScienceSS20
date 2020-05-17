@@ -1,6 +1,6 @@
 class ListKeeper:
  
-	dictionary = dict()
+    dictionary = dict()
     
     def __init__(self):
         self.dictionary['example'] = [1,2,3,4,5]
@@ -18,4 +18,4 @@ class ListKeeper:
         self.dictionary[key].sort()
    
     def append(self, key, list):
-		self.dictionary[key].extend(list)
+        self.dictionary[key].extend(list)
